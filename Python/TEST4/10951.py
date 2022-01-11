@@ -5,12 +5,12 @@
 # 코드 동작 과정에서 오류를 컨트롤 해주기 위해 사용
 
 # 풀이1
-# while True:
-#     try:
-#         a, b = map(int, input().split())
-#         print(a + b)
-#     except:
-#         break
+while True:
+    try:
+        a, b = map(int, input().split())
+        print(a + b)
+    except:
+        break
 
 # 풀이2
 # sys.stdin을 사용 -> ctrl+Z를 누르면 입력 종료된다
