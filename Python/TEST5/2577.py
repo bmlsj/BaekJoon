@@ -6,7 +6,7 @@ for i in range(3):
 
 result = a[0] * a[1] * a[2]
 
-# 문자로 인식해서 리스트에 넣고 비교
+# 문자로 인식해서 리스트에 넣고 비교하기
 result_list = [int(i) for i in str(result)]
 
 count = []
